@@ -1,0 +1,295 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+     font-family: Arial, Helvetica, sans-serif;
+    }
+    
+   .navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(12, 182, 182);
+    justify-content: space-between;
+    height: auto;
+    width: 100%;
+}
+
+.navbar p {
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.navbar h1{
+    display: flex;
+    flex-wrap: wrap;
+    
+    font-size: 40px;
+    
+
+}
+
+.navbar ul{
+    display:flex;
+    list-style: none;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 15px;
+}
+.navbar li a:hover {
+  background-color: #575757;
+  border-radius: 10px;
+}
+.navbar button {
+    
+    margin-right: 40px;
+    font-size: 25px;
+    background-color: wheat;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.navbar button:hover {
+     background-color: #575757;
+  border-radius: 10px;
+}
+/*home section*/
+    .home{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 900px;
+    width: 100%;
+}
+.home-text{
+ width:600px;
+ font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+
+}
+.home-image{
+   width:600px;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   margin: auto;
+   
+}
+.home-image img{
+    width:500px;
+    height:500px;
+    border-radius: 10px;
+    background: transparent;
+}
+/*event section*/
+.event-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    flex-direction: column;
+}
+.events{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+
+    
+}
+
+.tech, .cultural, .sports{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+/*about us*/
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    height: 700px;
+    width:100%;
+    
+}
+.about1{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+}
+.about p{
+    width: 50%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*contact form*/
+    .contact{
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 900px;
+    width: 100%;
+    }
+     .contact form{
+    max-width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #a899ccea;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 600px;
+    width: 450px;
+    font-size: 20px;
+}
+.contact form button{
+    width: 100px;
+    font-size: 25px;
+    background-color: wheat;
+    color: rgb(106, 55, 224);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .contact-info {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px 30px;
+  border: 3px solid #007bff; /* solid blue border */
+  border-radius: 12px;
+  background-color: #f9f9ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+}
+
+.contact-info:hover {
+  box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
+  transform: scale(1.02);
+}
+
+.contact-info h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #007bff;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #333;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .contact-info {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .contact-info h1 {
+    font-size: 1.5rem;
+  }
+}
+
+
+/*footer*/
+.footer{
+
+    background-color: rgb(15, 97, 97);
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.event-list {
+    height: auto;                               
+}
+.contact {
+    height: auto;
+}
+
+    
+  #event .card {
+  height: 600px; 
+}
+  
+#event .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#event .card-img-top {
+  height: 500px; /* ya jitni chahiye utni */
+  width: 400px;
+  object-fit: cover; /* image ko crop karke fit karega */
+}
+
+.section {
+      padding: 60px 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    .about1 {
+      width: 80px;
+      height: 4px;
+      background-color: #007bff;
+      margin: 10px auto 30px auto;
+      border-radius: 2px;
+    }
+    .timeline li {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+    .team-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+    }
